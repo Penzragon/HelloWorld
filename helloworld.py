@@ -1,4 +1,5 @@
-def hello():
-    return "Hello World!"
+def hello(name):
+    return "Hello World! My name is {}".format(name)
 
-print(hello())
+x = input("Input your name: ")
+print(hello(x))
